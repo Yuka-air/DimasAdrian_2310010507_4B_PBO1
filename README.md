@@ -121,7 +121,7 @@ class TiketEksekutif extends Tiket {
 }
 ```
 
-9. **Polymorphism** adalah konsep di mana sebuah nama dapat digunakan untuk merujuk ke beberapa tipe atau bentuk objek berbeda. Ini memungkinkan metode-metode dengan nama yang sama untuk berperilaku berbeda tergantung pada tipe objek yang mereka manipulasi, polymorphism bisa berbentuk Overloading ataupun Overriding. Pada kode ini,  Method `hitungHarga` di `TiketEkonomi` dan `TiketEksekutif` override method hitungHarga di `Tiket`.
+9. **Polymorphism** adalah konsep di mana sebuah nama dapat digunakan untuk merujuk ke beberapa tipe atau bentuk objek berbeda. Ini memungkinkan metode-metode dengan nama yang sama untuk berperilaku berbeda tergantung pada tipe objek yang mereka manipulasi, polymorphism bisa berbentuk Overloading ataupun Overriding. Pada kode ini,  Method `hitungHarga` di `TiketEkonomi` dan `TiketEksekutif` merupakan override method hitungHarga di `Tiket`.
 ```bash
 
  public int hitungHarga(int jumlahTiket) {
