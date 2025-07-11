@@ -5,7 +5,7 @@ Proyek ini adalah contoh sederhana aplikasi pemesanan tiket kereta menggunakan J
 Aplikasi ini dirancang untuk memproses pemesanan tiket kereta. Pengguna dapat melihat daftar tiket yang tersedia (kelas ekonomi dan eksekutif), memilih tiket, memasukkan jumlah tiket yang ingin dibeli, dan mendapatkan rincian harga akhir. 
 Program ini juga menerapkan diskon pada tiket ekonomi dan biaya tambahan pada tiket eksekutif. Program memanfaatkan konsep class, object, inheritance, polymorphism, encapsulation, serta pengendalian alur dengan seleksi, perulangan, dan error handling.
 
-##penjelasan kode
+##penjelasan kode##
 Berikut adalah bagian kode yang relevan dengan konsep OOP yang dijelaskan:
 1. **Class** adalah template atau blueprint dari object. Pada kode ini, `PemesananTiketKereta`, `Tiket`, `TiketEkonomi`, `TiketEksekutif`, `Pemesanan`, adalah contoh dari class.
 ```bash
